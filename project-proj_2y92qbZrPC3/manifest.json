@@ -1,0 +1,25 @@
+{
+  "name": "Bom Dia TV",
+  "short_name": "BomDia",
+  "description": "Um aplicativo simples que diz Bom dia ao ser aberto na sua TV.",
+  "start_url": "./index.html",
+  "display": "fullscreen",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "orientation": "landscape",
+  "categories": ["entertainment", "lifestyle"],
+  "icons": [
+    {
+      "src": "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=192&h=192&fit=crop",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=512&h=512&fit=crop",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ]
+}

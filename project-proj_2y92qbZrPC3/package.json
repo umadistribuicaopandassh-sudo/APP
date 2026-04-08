@@ -1,0 +1,17 @@
+{
+  "name": "bom-dia-tv",
+  "version": "1.0.0",
+  "description": "App Bom Dia para Android TV",
+  "main": "app.js",
+  "scripts": {
+    "build": "echo 'No build step required for pure web'",
+    "android:init": "npm install @capacitor/cli @capacitor/core && npx cap init \"Bom Dia TV\" com.bomdia.tv --web-dir .",
+    "android:add": "npm install @capacitor/android && npx cap add android",
+    "android:open": "npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^5.0.0",
+    "@capacitor/cli": "^5.0.0",
+    "@capacitor/core": "^5.0.0"
+  }
+}
